@@ -1,0 +1,64 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url('../images/gray_bg.jpg');
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    border: solid 1px black;
+}
+
+a:visited {
+    color: black;
+}
+
+nav .current {
+    text-decoration: underline;
+}
+
+nav {
+    background-color: rgb(230, 230, 230);
+    width: 100%;
+    border-bottom: solid 2px black;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 115%;
+}
+
+nav li {
+    display: inline;
+    padding-right: 40px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+
+footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        font-size: 105%;
+    }
+
+    nav li {
+        display: inline;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+}
