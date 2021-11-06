@@ -157,12 +157,54 @@ footer {
     }
 
     nav li {
+        font-size: 80%;
         display: inline;
         padding-right: 5px;
         padding-left: 5px;
     }
 
     .grid {
-        display: none;
+        display: block;
+    }
+
+    .introduction {
+    padding: 0;
+    border: solid 2px black;
+    border-radius: 3px;
+    margin: 0;
+    }
+
+    .img-me {
+        padding: 10px 0;
+    }
+    
+    .img-me2 {
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        font-size: 150%;
+    }
+
+    .pictures {
+        display: block;
+    }
+
+    .Explanation {
+        font-size: 90%;
+    }
+
+    .workout {
+        margin-bottom: -20px;
+    }
+
+    footer {
+        position: inherit;
+        left: 0px;
+        bottom: 0px;
+        width: 100%;
+        background-color: white;
+        text-align: center;
     }
 }
