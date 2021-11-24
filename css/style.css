@@ -225,3 +225,30 @@ footer {
         text-align: center;
     }
 }
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    .nav_list {
+        display: flex;
+        flex-direction:  column;
+        align-items: flex-end;
+        align-content: flex-end;
+    }
+
+    .nav_list li {
+        padding: 2px 0;
+    }
+
+    .pictures {
+        grid-column-gap: 25px;
+        grid-row-gap: 25px;
+    }
+
+    footer {
+        position: inherit;
+        left: 0px;
+        bottom: 0px;
+        width: 100%;
+        background-color: white;
+        text-align: center;
+    }
+}
