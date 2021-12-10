@@ -379,6 +379,10 @@ footer {
         align-content: center;
     }
 
+    .experience {
+        margin: 0 20%;
+    }
+
     #explanation {
         text-align: center;
         grid-column: 1 / 4;
@@ -458,5 +462,19 @@ footer {
 
     body {
         background-attachment: scroll;
+    }
+
+    .flip-card {
+        perspective: none;
+    }
+    
+    .flip-card-inner {
+        transition: none;
+        transform-style: unset;
+    }
+    
+    .flip-card:hover .flip-card-inner, .flip-card:focus-within .flip-card-inner,
+    .flip-card:active .flip-card-inner, .flip-card:focus .flip-card-inner {
+        transform: rotateY(0deg);
     }
 }
